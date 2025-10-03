@@ -250,3 +250,14 @@ My primary contribution to the NextCart project was building and refining core e
 
 I utilized Next.js App Router with server components for data fetching and SEO, client components for interactivity (e.g., useState, useEffect hooks), and Suspense for loading states. Technologies included GraphQL for API queries with custom hooks, Tailwind CSS and shadcn/ui for responsive styling, Zod for validation, and server actions for form handling. Components like CardGrid, ProductCard, and navigation items were built or refactored, with error handling via try-catch and fallback data.
 
+## Improvements and Additions for NextCart
+If I were to continue working on this project, I would prioritize the following areas:
+
+1. Implement proper state management for the shopping cart - Currently, there's only a placeholder button for "Add to Cart" which uses a counter function with help of cookies to dsiplay the number of items in the basket without actual functionality. I would add global state using Context API to manage cart items, quantities, and totals, including persistence in localStorage to retain the cart between sessions.
+
+2. Add unit tests and integration tests - The project lacks tests entirely. I would implement Jest and React Testing Library to test components like ProductCard, AdminForm, and API calls, plus Cypress for end-to-end testing of user flows such as search and CRUD in admin.
+
+3. Improve performance and optimization - Lazy loading is already in use, but I would add image optimization with Next.js Image component for all images, and memoization (React.memo) for heavy components like ProductGrid to reduce unnecessary re-renders.
+
+4. Add more e-commerce features - Such as a checkout process with payment integration (e.g., Stripe), user profiles for order history, and product reviews to make the app more complete.
+
