@@ -236,3 +236,17 @@ For questions, use GitHub Issues. Thanks for helping! 🚀
 ## 📜 License
 
 This project is developed for educational purposes and is not intended for production.
+
+## My Primary Contribution
+My primary contribution to the NextCart project was building and refining core e-commerce functionalities, focusing on user interface components, data fetching, performance optimizations, and documentation. I implemented features like cart management, product display with image handling, API integration with pagination, and loading states, while also enhancing the project's README with comprehensive sections for better usability and collaboration.
+
+* Cart Functionality: Implemented cart counter (using cookis for now), add-to-cart actions, and optimistic UI updates in ProductCard and navigation components.
+* Product Display and Image Handling: Created ProductCard, ProductImageSlider with navigation arrows, and image validation logic for fallback handling.
+* Featured Products and Merchandise: Developed FeaturedProducts component, integrated merchandise card with product card, and added responsive images to the about page.
+* API and Data Fetching: Set up GraphQL queries, server-side fetching functions, pagination support, and fallback data managers for products and categories.
+* Loading and Suspense: Added Suspense wrappers, LoadingSpinner components, and improved loading indications for better user experience.
+* Navigation and UI: Enhanced navigation content and ensured responsive design across components.
+* README Documentation: added sections for usage, technologies, features, contributing, and project overview.
+
+I utilized Next.js App Router with server components for data fetching and SEO, client components for interactivity (e.g., useState, useEffect hooks), and Suspense for loading states. Technologies included GraphQL for API queries with custom hooks, Tailwind CSS and shadcn/ui for responsive styling, Zod for validation, and server actions for form handling. Components like CardGrid, ProductCard, and navigation items were built or refactored, with error handling via try-catch and fallback data.
+
