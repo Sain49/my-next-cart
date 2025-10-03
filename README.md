@@ -245,7 +245,7 @@ My primary contribution to the NextCart project was building and refining core e
 * Featured Products and Merchandise: Developed FeaturedProducts component, integrated merchandise card with product card, and added responsive images to the about page.
 * API and Data Fetching: Set up GraphQL queries, server-side fetching functions, pagination support, and fallback data managers for products and categories.
 * Loading and Suspense: Added Suspense wrappers, LoadingSpinner components, and improved loading indications for better user experience.
-* Navigation and UI: Enhanced navigation content and ensured responsive design for product card, featured products and about us page.
+* Navigation and UI: Enhanced navigation content and ensured responsive design for product card, featured products, about us page and accross components.
 * README Documentation: added sections for usage, technologies, features, contributing, and project overview.
 
 I utilized Next.js App Router with server components for data fetching and SEO, client components for interactivity (e.g., useState, useEffect hooks), and Suspense for loading states. Technologies included GraphQL for API queries with custom hooks, Tailwind CSS and shadcn/ui for responsive styling, Zod for validation, and server actions for form handling. Components like CardGrid, ProductCard, and navigation items were built or refactored, with error handling via try-catch and fallback data.
